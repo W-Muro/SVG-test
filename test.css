@@ -1,0 +1,20 @@
+.ja_map{
+    width: 100%;
+    background-color: #EFFEFF;
+}
+svg{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+ellipse{
+    display: inline;
+    opacity: 0.5;
+    fill: #ff0000;
+    fill-rule: evenodd;
+    transition: all 0.3s ease-in-out;
+}
+ellipse:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
