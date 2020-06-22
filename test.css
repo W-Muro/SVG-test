@@ -1,4 +1,4 @@
-.ja_map{
+.jp_map{
     width: 100%;
     background-color: #EFFEFF;
 }
@@ -7,14 +7,14 @@ svg{
     width: 100%;
     height: auto;
 }
-ellipse{
+circle{
     display: inline;
     opacity: 0.5;
     fill: #ff0000;
     fill-rule: evenodd;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
-ellipse:hover{
-    opacity: 1;
-    transition: all 0.3s ease-in-out;
+circle:hover{
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
 }
