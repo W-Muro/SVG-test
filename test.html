@@ -56,25 +56,6 @@
      </svg>
     </div>
 
-    <script>
-      var circle = document.getElementsByTagName("circle");
-      // circleの個数分ループ
-      for (let i = circle.length - 1; i >= 0; i--){
-         hoverAction(circle[i], i);
-      };
-      function hoverAction(hoverDOM, hoverId){
-         // 各ボタンをイベントリスナーに登録
-         hoverDOM.addEventListener("mouseover", function() {
-            var r = hoverDOM.getAttribute("r");
-            var r = Number(r);
-            hoverDOM.setAttribute("r", r + 2);
-         });
-         hoverDOM.addEventListener("mouseout", function() {
-            var r = hoverDOM.getAttribute("r");
-            var r = Number(r);
-            hoverDOM.setAttribute("r", r - 2);
-         });
-      }
-    </script>
+    <script type="text/javascript" src="test.js"></script>
 </body>
 </html>
